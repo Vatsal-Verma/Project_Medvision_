@@ -1,0 +1,14 @@
+# Stage 1: Build the application
+FROM eclipse-temurin:17-jdk-alpine AS builder
+
+WORKDIR /build
+COPY . .
+RUN apk add --no-cache maven && mvn clean package
+
+# Stage 2: Create the runtime image
+FROM eclipse-temurin:17-jdk-alpine
+
+WORKDIR /app
+COPY --from=builder /build/target/*.jar app.jar
+
+ENTRYPOINT ["java", "-jar", "app.jar"]
