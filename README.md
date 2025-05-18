@@ -36,5 +36,6 @@ MedVision is a modern web application for scheduling doctor appointments. Built 
 > ![image](https://github.com/user-attachments/assets/789b5049-8066-489e-a7d5-bb672db8ccb3)
 - This is how the Doctor react to your prompt
 > ![image](https://github.com/user-attachments/assets/07bf8a64-8ec8-4b40-8f7a-4f7e7de5d5ef)
-
+- This is how it looks when the approval mail is sent to your gmail.
+> ![image](https://github.com/user-attachments/assets/b7f46015-7ed3-4cce-9fbd-95bb04bc43ef)
 
