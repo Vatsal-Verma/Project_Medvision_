@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import { useNavigate, useParams } from "react-router-dom";
-// import { useEffect } from "react";
+
 
 function UpdateUser() {
     const {id} = useParams();
@@ -106,7 +106,7 @@ function UpdateUser() {
                         <Form.Control
                             type="text"
                             name="department"
-                            placeholder="Enter department"
+                            placeholder="Enter Symtoms"
                             value={formData.department}
                             onChange={handleInputChange}
                         ></Form.Control>

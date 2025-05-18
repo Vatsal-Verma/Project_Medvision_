@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+.content p{
+    font-size: 40px;
+    font-family: "Nunito", sans-serif;
+      background: linear-gradient( #000000, #514f4f);
+      background-clip: text;
+      color: transparent;
+      font-weight: bold;
+      text-align: center;
+
+}

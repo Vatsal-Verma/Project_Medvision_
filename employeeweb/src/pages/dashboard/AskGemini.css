@@ -1,0 +1,122 @@
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.container h1{
+  text-align: center;
+  position: relative;
+  top: 40vh;
+  color: white;
+  font-size: 5vw;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+h1{
+  color: white;
+}
+
+body{
+  background-color: black;
+}
+
+
+
+.pic{
+  
+  position: absolute;
+  top: 150px;
+  display: flex;
+  left: 35vw;
+  z-index: -1;
+  height: 35vw;
+}
+
+.lst{
+  display: flex;
+  justify-content: center;
+}
+
+ol{
+  display: flex;
+  gap: 20px;
+  font-size: 1.5vw;
+}
+
+.items{
+  color: white;
+  list-style: none;
+  text-align: center;
+  position: relative;
+  top: 33vh;
+  backdrop-filter: blur(2px);
+  border: solid 1px grey;
+  padding: 7px 14px;
+  border-radius: 30px;
+  font-family: "Chakra Petch", sans-serif;
+  cursor: pointer;
+}
+
+.items:hover{
+  border-color: cyan;
+}
+
+.logo{
+  font-size: 50px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-family: "Chakra Petch", sans-serif;
+
+}
+
+.side{
+
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 20%;
+  backdrop-filter: blur(10px);
+
+}
+
+
+.lst{
+  color: white;
+}
+
+.side-item{
+  text-decoration: none;
+  position: relative;
+  padding: 20px;
+  top: 100px;
+  font-size: 20px;
+
+}
+ul{
+  list-style: none;
+}
+
+.side{
+  display: none; 
+} */
+/* 
+@media (max-width: 600px) {
+  .side{
+    display: flex;
+  }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+.content p{
+    font-size: 40px;
+    font-family: "Nunito", sans-serif;
+      background: linear-gradient( #000000, #514f4f);
+      background-clip: text;
+      color: transparent;
+      font-weight: bold;
+      text-align: center;
+
+}

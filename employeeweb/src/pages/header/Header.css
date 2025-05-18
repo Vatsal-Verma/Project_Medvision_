@@ -1,4 +1,4 @@
-.navbar{
+/* .navbar{
     background-color: grey;
 }
 
@@ -17,3 +17,81 @@
         margin-right: 0;
     }
 }
+
+.nav-link{
+    display: flex;
+} */
+
+/* Navbar container */
+
+body{
+    background-image: url(./white.png);
+    background-size: cover;         /* Scale image to cover entire area */
+  background-position: center;    /* Center the image */
+  background-repeat: no-repeat;   /* Prevent repeating */
+  background-attachment: fixed; 
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: linear-gradient(135deg, #1e3c72, #2a5298); */
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+
+}
+
+/* Logo / Brand name */
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: black;
+}
+
+/* Nav links container */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+
+}
+
+/* Individual link */
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Underline hover effect */
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: #484949;
+  transition: width 0.3s;
+}
+
+.nav-link:hover {
+  color: #ff0000;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar-logo img{
+  height: 70px;
+}
+
+
