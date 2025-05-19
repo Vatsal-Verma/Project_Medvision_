@@ -1,4 +1,4 @@
-# Node - MongoEmployee --> backend, employeeweb --> frontend
+# Note - MongoEmployee --> backend, employeeweb --> frontend
 
 # MedVision 🏥
 MedVision is a modern web application for scheduling doctor appointments. Built using **Spring Boot**, **MongoDB**, and **React**, it provides a seamless and intuitive interface for patients to find doctors, book appointments, and manage their healthcare interactions online.
