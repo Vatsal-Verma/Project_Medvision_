@@ -5,12 +5,12 @@ MedVision is a modern web application for scheduling doctor appointments. Built 
 
 ## 🧰 Tech Stack
 
-**Frontend:**
+** Frontend:**
 - React.js
 - Axios
 - Bootstrap 
 
-**Backend:**
+** Backend:**
 - Spring Boot (Java)
 - REST APIs
 - Gemini APIs Integration
